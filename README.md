@@ -112,6 +112,11 @@ Quando um objeto se aproxima (distância < 60 cm), o semáforo muda para **verde
 <img width="269" height="230" alt="verde" src="https://github.com/user-attachments/assets/e1eb8db7-0e92-42bb-ac9b-a5e1c825d53d" />
 
 
+ 
+## Vídeo da aplicação: 
+
+https://github.com/user-attachments/assets/04df6644-7d51-44f7-96d3-5ec12170dead
+
 
 ## Conceitos Envolvidos
 
