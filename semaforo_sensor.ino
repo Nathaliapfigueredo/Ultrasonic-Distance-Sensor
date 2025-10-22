@@ -1,19 +1,16 @@
 class Semaforo {
   private:
     int ledVermelho;
-    int ledAmarelo;
     int ledVerde;
 
   public:
     Semaforo(int vm, int am, int vd) {
       ledVermelho = vm;
-      ledAmarelo = am;
       ledVerde = vd;
     }
 
     void iniciar() {
       pinMode(ledVermelho, OUTPUT);
-      pinMode(ledAmarelo, OUTPUT);
       pinMode(ledVerde, OUTPUT);
     }
 
@@ -25,13 +22,12 @@ class Semaforo {
 
     void verde() {
       digitalWrite(ledVermelho, LOW);
-      digitalWrite(ledAmarelo, LOW);
       digitalWrite(ledVerde, HIGH);
     }
 };
 
 //Cria o objeto semáforo
-Semaforo semaforo(13, 12, 10);
+Semaforo semaforo(13, 10);
 
 //Pinos do sensor ultrassônico
 const int trigPin = 7;
