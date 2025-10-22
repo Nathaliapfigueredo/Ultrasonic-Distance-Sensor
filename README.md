@@ -34,7 +34,6 @@ O objetivo é simular um sistema de controle de tráfego automatizado, onde a pa
 | Echo (HC-SR04) | 6 |
 
 
-
 ##  Código-Fonte
 
 O código é estruturado em **Programação Orientada a Objetos (POO)**, utilizando uma **classe `Semaforo`** para organizar o controle dos LEDs.
@@ -97,6 +96,22 @@ void loop() {
   }
 }
 ```
+
+## Demonstração do Projeto
+
+### Luz Vermelha (objeto distante)
+Quando não há objeto próximo (distância > 60 cm), o semáforo permanece **vermelho**.
+
+<img width="266" height="225" alt="vermelho" src="https://github.com/user-attachments/assets/c048738d-2bf1-4c9c-b4d4-8af834f25923" />
+
+
+
+### Luz Verde (objeto próximo)
+Quando um objeto se aproxima (distância < 60 cm), o semáforo muda para **verde**.
+
+<img width="269" height="230" alt="verde" src="https://github.com/user-attachments/assets/e1eb8db7-0e92-42bb-ac9b-a5e1c825d53d" />
+
+
 
 ## Conceitos Envolvidos
 
